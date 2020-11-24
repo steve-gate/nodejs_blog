@@ -5,6 +5,7 @@
   "main": "app",
   "scripts": {
     "start": "nodemon --inspect  index.js",
+    "watch": "node-sass --watch src/resources/scss --output src/public/css ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,9 @@
   "homepage": "https://github.com/steve-gate/nodejs_blog#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "morgan": "^1.10.0",
+    "node-sass": "^5.0.0",
     "nodemon": "^2.0.6"
   }
 }
